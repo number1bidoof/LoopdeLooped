@@ -15,7 +15,7 @@ import java.time.LocalTime;
 public class MenuRepetition {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Hello, user would you like to...");
+        System.out.println("Hello, would you like to...");
         System.out.println("1: Say hello");
         System.out.println("2: Display the current time");
         System.out.println("3: Exit loop");
