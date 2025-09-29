@@ -1,3 +1,10 @@
+/**
+ * Ayah Abdalla
+ * Java I
+ * 09/29/2025
+ *
+ * Simple sentinel sum calculator, adds all numbers together until 0 is entered, then displays final output
+ */
 import java.util.Scanner;
 
 public class SentinelSum {
@@ -8,7 +15,7 @@ public class SentinelSum {
         int userNumber = input.nextInt();
         int userSum = 0;
 
-        while(userNumber != 0){ // if the user number inputed is not 0
+        while(userNumber != 0){ // starts the loop
             System.out.println("Enter a number, any number: "); // prompts user to enter another number
             userNumber = input.nextInt();
             userSum += userNumber; // adds the number to the sum
