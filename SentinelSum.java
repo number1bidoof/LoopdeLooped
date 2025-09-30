@@ -17,8 +17,8 @@ public class SentinelSum {
 
         while(userNumber != 0){ // starts the loop
             System.out.println("Enter a number, any number: "); // prompts user to enter another number
-            userNumber = input.nextInt();
             userSum += userNumber; // adds the number to the sum
+            userNumber = input.nextInt();
         }
         input.close();
         System.out.println("Your final sum is... " + userSum); 
